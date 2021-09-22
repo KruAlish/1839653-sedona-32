@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Алина Авдеева](https://up.htmlacademy.ru/htmlcss/32/user/1839653).
-* Наставник: [Денис Байдаров] (https://htmlacademy.ru/profile/4er).
+* Наставник: [Денис Байдаров](https://htmlacademy.ru/profile/4er).
 
 ---
 
