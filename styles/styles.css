@@ -248,3 +248,107 @@ fieldset > label {
     line-height: 39px;
     color: #000000;
 }
+
+.item-card_title {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000 !important;
+    text-decoration: none;
+}
+
+.item-card-link {
+    color: #000000 !important;
+    text-decoration: none;
+}
+
+ul>li>b {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #333333;
+}
+
+.item-card-rate {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    background-color:#F2F2F2;
+}
+
+.favoirite-button {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color:#83B3D3;
+    text-decoration: none;
+}
+
+.item-card-link-button {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color:#756257;
+    text-decoration: none;
+}
+
+.load-more {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color:#83B3D3;
+    text-decoration: none;
+}
+
+.pagination {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.pagination-link {
+    color: #FFFFFF;
+    background-color:#83B3D3;
+    text-decoration: none;
+}
+
+.pagination-link.pagination-current {
+    color: #000000;
+    background-color:#E5E5E5;
+    text-decoration: none;
+}
+
+.mumbers-items-title {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #333333;
+}
