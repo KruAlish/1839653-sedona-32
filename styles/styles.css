@@ -30,12 +30,23 @@
     font-display: swap;
 }
 
+html {
+    height:100%;
+}
+
 body {
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    min-height:100%;
+    width:1200px;
+    align-content: center;
     font-family: "PT Sans", sans-serif;
     font-size: 18px;
     line-height: 21px;
-    background-color: #FFFFFF;
+    background-color: #E5E5E5;
     color:#333333;
+
   
 }
 
@@ -52,10 +63,40 @@ button {
     text-decoration: none;
 }
 
+.button {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #756257;
+    text-decoration: none;
+}
+
 .page-header {
-    background-color: #FFFFFF;
     color: #000000;
+    background-color: #FFFFFF;
 } 
+
+.navigation {
+    display:flex;
+    width:1200px;
+    margin: 0 auto;
+}
+
+.navigation-list {
+    margin:0;
+    padding:0;
+    width:300px;
+}
+
+.navigation-logo {
+    display:block;
+    margin: 0 auto;
+}
 
 .navigation-link {
     font-size: 20px;
@@ -67,11 +108,32 @@ button {
     color: #000000;
 }
 
+.navigation-user {
+    width:300px; 
+    margin-left: auto;
+}
+
+.main-container {
+    flex-grow:1;
+    margin: 0;
+    width:1200px;
+}
+
+.page-container {
+    width:1200px;
+    margin:0;
+}
+
+.welcome-logo {
+    display:block;
+    margin: 0 auto;
+}
+
 .main-index {
     color:#333333;
     background-color: #FFFFFF;
     background-image:url("../image/index-background_p1.jpg");
-    background-size: 100% auto;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
@@ -80,6 +142,7 @@ button {
     background-color:#333333;
     background-image:url("../image/catalog-background.png");
     background-size: 100% auto;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
@@ -103,6 +166,30 @@ button {
     text-align: center;
     color: #333333;
     background-color:#ffffff;
+}
+
+.advantages {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.blue-color {
+    width:400px;
+    margin:0; 
+}
+
+.illustration {
+    margin:0;
+}
+
+.advantages-list {
+    padding:0;
+    margin:0;
+    display:flex;
+}
+
+.advantages-item {
+    width:400px;
 }
 
 .advantages-title {
@@ -185,7 +272,20 @@ li.blue-color-12 {
     text-align: center;
 }
 
+.page-footer {
+    display:flex;
+    flex-direction:row;
+    background-color: #FFFFFF;
+}
+
+.footer-social-list {
+    width:210px;
+    margin-right:60px;
+}
+
 .footer-contacts {
+    width:720px;
+    margin-left:auto;
     background-color: #FFFFFF;
     color: #000000;
 }
