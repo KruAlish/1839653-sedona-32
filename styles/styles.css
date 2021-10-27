@@ -119,6 +119,14 @@ button {
     width:1200px;
 }
 
+.main-inner {
+    flex-grow:1;
+    margin: 0;
+    width:1200px;
+    display:flex;
+    flex-direction: column;
+}
+
 .page-container {
     width:1200px;
     margin:0;
@@ -144,6 +152,63 @@ button {
     background-size: 100% auto;
     background-size: 100%;
     background-repeat: no-repeat;
+}
+
+.breadcrumbs {
+    display:flex;
+    flex-direction: row;
+    width:115px;
+    margin:0;
+    padding:0;
+}
+
+.infrastructure-list {
+    display:flex;
+    flex-direction:row;
+    padding:0;
+}
+
+.infrastructure {
+    display:flex;
+    flex-direction:column;
+    width:150px;
+    margin-right:67px;
+}
+
+.home-type {
+    display:flex;
+    flex-direction:column;
+    width:150px;
+    margin-right:167px;
+}
+
+.price {
+    display:flex;
+    flex-direction:column;
+    width:287px;
+    margin-right:81px;
+    margin-left:auto;
+}
+
+.second-header{
+    display:flex;
+    flex-direction: row;
+    
+}
+
+.second-header form {
+    display:flex;
+    flex-direction: row;
+}
+
+.second-header-title {
+    width:337px;
+    margin-right:192px;
+}
+
+.second-header-sorting {
+    width: 287px;
+    margin-right:81px;
 }
 
 .info {
@@ -251,6 +316,10 @@ li.blue-color-12 {
     background-color: #FFFFFF;
 }
 
+.subscribe1 {
+        background-color: #FFFFFF;
+}
+
 .subscribe-title {
     font-size: 30px;
     line-height: 36px;
@@ -264,13 +333,16 @@ li.blue-color-12 {
     font-size: 22px;
     line-height: 26px;
     text-align: center;
-    text-transform: uppercase;
     color:#FFFFFF;
 }
 
 .subscribe_form {
     text-align: center;
 }
+
+.black {
+    color:#333333;
+} 
 
 .page-footer {
     display:flex;
@@ -349,6 +421,18 @@ fieldset > label {
     color: #000000;
 }
 
+.item-list {
+    display:flex;
+    flex-direction: column;
+    padding:0;
+    margin:0;
+}
+
+.item-card {
+    display:flex;
+    flex-direction: row;
+}
+
 .item-card_title {
     font-family: PT Sans;
     font-style: normal;
@@ -424,7 +508,16 @@ ul>li>b {
     text-decoration: none;
 }
 
+.pagination-block {
+    display:flex;
+    flex-direction: row;
+}
+
 .pagination {
+    display:flex;
+    flex-direction: row;
+    margin-right:320px;
+    padding:0;
     font-family: PT Sans;
     font-style: normal;
     font-weight: bold;
@@ -442,6 +535,13 @@ ul>li>b {
     color: #000000;
     background-color:#E5E5E5;
     text-decoration: none;
+}
+
+.numbers-items {
+    display:flex;
+    flex-direction: row;
+    width:386px;
+    margin-left:auto;
 }
 
 .mumbers-items-title {
