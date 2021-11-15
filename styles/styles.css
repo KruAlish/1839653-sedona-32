@@ -46,8 +46,7 @@ body {
     line-height: 21px;
     background-color: #E5E5E5;
     color:#333333;
-
-  
+    box-shadow: 0px 0px 30px #999999;
 }
 
 button {
