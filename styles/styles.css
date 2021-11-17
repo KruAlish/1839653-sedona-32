@@ -164,6 +164,31 @@ figure > img {
     box-sizing: border-box;
 }
 
+.navigation-fav {
+    padding: 0px 10px;
+    padding-bottom: 3px;
+    margin-right:auto;
+    display:block;
+    box-sizing: border-box;  
+}
+
+.navigation-fav:hover {
+    color: #756257;
+    opacity: 0.3;
+}
+
+.navigation-fav:focus {
+    border: 3px solid #83B3D3;
+    box-sizing: border-box;
+    border-radius: 10px;
+    align-items: center;
+    padding: 0px;
+    outline: none;
+    margin-top:-3px;
+    margin-left:7px;
+    margin-right:7px;
+}
+
 .navigation-item {
  display:block;
  margin-top:14px;
@@ -773,7 +798,7 @@ li.blue-color-12 {
 } 
 
 .page-footer {
-    padding: 12px 57px;
+    padding: 7px 57px;
     display:flex;
     flex-direction:row;
     background-color: #FFFFFF;
@@ -810,6 +835,7 @@ li.blue-color-12 {
     justify-content: flex-end;
     margin: 0 15px;
     padding: 0;
+    margin-top:9px;
 }
 
 .social-button:focus {
@@ -819,6 +845,7 @@ li.blue-color-12 {
     padding:3px 5px;
     outline:none;
     margin: 7px;
+    margin-top:18px;
 }
 
 .footer-contacts {
@@ -861,6 +888,7 @@ a.telephone {
 .footer-logo-HTML {
     align-items:center;
     padding-left:15px;
+    margin-top:6px;
 }
 
 .footer-logo-HTML:hover {
@@ -886,7 +914,7 @@ a.telephone:focus {
     border-radius: 10px;
     outline: none;
     padding: 7px;
-    margin-top: 11px;
+    margin-top: 9px;
     width: 360px;
     margin-left: auto;
     margin-right: auto;
