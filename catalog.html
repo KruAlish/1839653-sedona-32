@@ -81,49 +81,68 @@
         </li>
       </ul>
       <form class="infrastructure-list" action="https://echo.htmlacademy.ru/" method="post">
-        <fieldset class="infrastructure">
+        <fieldset class="infrastructure catalog-filter-group">
           <legend class="infrastructure-title">Инфраструктура:</legend>
           <div>
-            <input class="infrastructure-item" type="checkbox" name="pool" id="pool" checked>
-            <label class="infrastructure-item" for="pool">Бассейн</label>
+            <label class="control">
+            <input class="infrastructure-item visually-hidden control-input" type="checkbox" name="pool" id="pool" checked>
+            <span class="control-mark"></span>
+            <span class="infrastructure-item control-label" >Бассейн</span>
+          </label>
           </div>
           <div>
-            <input class="infrastructure-item" type="checkbox" name="parking" id="parking" checked>
-            <label class="infrastructure-item" for="parking">Парковка</label>
+            <label class="control">
+            <input class="infrastructure-item visually-hidden control-input" type="checkbox" name="parking" id="parking" checked>
+            <span class="control-mark"></span>
+            <span class="infrastructure-item control-label" >Парковка</span>
+          </label>
           </div>
           <div>
-            <input class="infrastructure-item" type="checkbox" name="wi-fi" id="wi-fi">
-            <label class="infrastructure-item" for="wi-fi">Wi-Fi</label>
+            <label class="control">
+            <input class="infrastructure-item visually-hidden control-input" type="checkbox" name="wi-fi" id="wi-fi">
+            <span class="control-mark"></span>
+            <span class="infrastructure-item control-label" >Wi-Fi</span>
+          </label>
           </div>
         </fieldset>
-        <fieldset class="home-type">
+        <fieldset class="home-type catalog-filter-group">
           <legend class="infrastructure-title">Тип жилья:</legend>
           <div>
-            <input class="home-type-item" type="radio" name="home-type" checked value="Гостиница" id="hotel">
-            <label class="home-type-item" for="hotel">Гостиница</label>
+            <label class="control">
+            <input class="home-type-item visually-hidden control-input" type="radio" name="home-type" checked value="Гостиница" id="hotel">
+            <span class="control-mark"></span>
+            <span class="home-type-item control-label" >Гостиница</span>
+          </label>
           </div>
           <div>
-            <input class="home-type-item" type="radio" name="home-type" value="Мотель" id="motel">
-            <label class="home-type-item" for="motel">Мотель</label>
+            <label class="control">
+            <input class="home-type-item visually-hidden control-input" type="radio" name="home-type" value="Мотель" id="motel">
+            <span class="control-mark"></span>
+            <span class="home-type-item control-label" >Мотель</span>
+          </label>
           </div>
           <div>
-            <input class="home-type-item" type="radio" name="home-type" value="Апартаменты" id="apartment">
-            <label class="home-type-item" for="apartment">Апартаменты</label>
+            <label class="control">
+            <input class="home-type-item visually-hidden control-input" type="radio" name="home-type" value="Апартаменты" id="apartment">
+            <span class="control-mark"></span>
+            <span class="home-type-item control-label" >Апартаменты</span>
+          </label>
           </div>
         </fieldset>
-        <feildset class="price">
+        <feildset class="price catalog-filter-group">
           <legend class="infrastructure-title">Стоимость, ₽:</legend>
           <div class="min-max-input">
-            <label class="min-price ">
-              <input class="min-price-input" type="number" id="min-price" name="min-price" min="0" max="999999"
-                placeholder="0              от">
+            <label class="min-price catalog-filter-label">
+              0<input class="min-price-input range-input" type="number" id="min-price" name="min-price" min="0"
+                placeholder="от" style="width:95px">
             </label>
-            <label class="max-price">
-              <input class="max-price-input" type="number" id="max-price" name="max-price" min="0" max="999999"
-                placeholder="до">
+            <label class="max-price catalog-filter-label">
+              9000<input class="max-price-input range-input" type="number" id="max-price" name="max-price" min="0"
+                placeholder="до" style="width:70px">
             </label>
           </div>
           <div class="min-max-button">
+            <div class="min-max-inside" style="width: 227px">
             <button class="range-toggle toogle-min" type="button">
               <span class="visually-hidden">Изменить минимальную цену</span>
             </button>
@@ -131,8 +150,9 @@
               <span class="visually-hidden">Изменить максимальную цену</span>
             </button>
           </div>
+          </div>
         </feildset>
-        <div class="control">
+        <div class="control-buttons">
           <h2 class="visually-hidden">Управление</h2>
           <button class="true button" type="submit">Применить</button>
           <button class="bold button" type="reset">Сбросить</button>
