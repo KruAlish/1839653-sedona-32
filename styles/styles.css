@@ -56,7 +56,7 @@ button {
   line-height: 21px;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF !important;
+  color: #FFFFFF;
   background-color: #756257;
   text-decoration: none;
   border: none;
@@ -102,7 +102,7 @@ figure>img {
   line-height: 21px;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF !important;
+  color: #FFFFFF ;
   background-color: #756257;
   text-decoration: none;
   border-radius: 4px;
@@ -378,10 +378,6 @@ li.fav-item {
   grid-column: 3 / 4;
 }
 
-.fav-item-title:hover {
-
-}
-
 .fav-item-sort {
   display:block;
   margin:0;
@@ -472,7 +468,7 @@ li.fav-item {
 .main-index {
   color: #333333;
   background-color: #FFFFFF;
-  background-image: url("../image/index-background_p1.jpg");
+  background-image: url("../images/index-background-p1.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -480,7 +476,7 @@ li.fav-item {
 .inner-header {
   color: #FFFFFF;
   background-color: #333333;
-  background-image: url("../image/catalog-background.png");
+  background-image: url("../images/catalog-background.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 35px;
@@ -552,7 +548,7 @@ li.fav-item {
 }
 
 .home-type-item:hover ~ .control-mark{
-  opacity: 0.6 !important;
+  opacity: 0.6;
 }
 
 .home-type-item:focus  ~ .control-mark{
@@ -703,7 +699,7 @@ li.fav-item {
   font-size: 18px;
   line-height: 23px;
   appearance: none;
-  background: url("../image/arrow-select.svg") no-repeat right;
+  background: url("../images/arrow-select.svg") no-repeat right;
   background-position-x: calc(100% - 21px)
 }
 
@@ -928,7 +924,7 @@ li.blue-color-12 {
   display: grid;
   grid-template-columns: 200px 800px 200px;
   grid-template-rows: 94px 65px 98px 60px 94px;
-  background-image: url("../image/background_p1.jpg");
+  background-image: url("../images/background-p1.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   color: #333333;
@@ -968,7 +964,7 @@ li.blue-color-12 {
   margin-bottom: 26px;
 }
 
-.subscribe_form {
+.subscribe-form {
   grid-column-start: 2;
   grid-row-start: 4;
   text-align: center;
@@ -976,7 +972,7 @@ li.blue-color-12 {
   width: 800px;
 }
 
-.subscribe_input {
+.subscribe-input {
   flex-grow: 2;
   border-radius: 10px 0px 0px 10px;
   padding-left: 22px;
@@ -989,12 +985,12 @@ li.blue-color-12 {
   background: #F2F2F2;
 }
 
-.subscribe_input:hover {
+.subscribe-input:hover {
   background: #E6E6E6;
   outline: none;
 }
 
-.subscribe_input:focus {
+.subscribe-input:focus {
   box-shadow: 0px 0px 0px 3px #83B3D3;
   background: #E6E6E6;
   outline: none;
@@ -1098,14 +1094,14 @@ li.blue-color-12 {
 }
 
 a.telephone {
-  color: #000000 !important;
+  color: #000000 ;
   text-decoration: none;
   margin-top: 10px;
   display: block;
 }
 
 .footer-contacts a.telephone:hover {
-  color: #756257 !important;
+  color: #756257;
 }
 
 .footer-logo {
@@ -1187,7 +1183,7 @@ a.telephone:focus {
   height: 53px;
   background-color: #F2F2F2;
   border-radius: 50px;
-  background-image: url("../image/cross.svg");
+  background-image: url("../images/cross.svg");
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
@@ -1195,7 +1191,7 @@ a.telephone:focus {
 
 .modal-close-button:hover {
  background: #E6E6E6;
- background-image: url("../image/cross.svg");
+ background-image: url("../images/cross.svg");
  background-repeat: no-repeat;
  background-position: center;
  cursor: pointer;
@@ -1204,7 +1200,7 @@ a.telephone:focus {
 
 .modal-close-button:focus {
   background: #E6E6E6;
-  background-image: url("../image/cross.svg");
+  background-image: url("../images/cross.svg");
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
@@ -1226,7 +1222,7 @@ a.telephone:focus {
 .arrive-date-field:hover,
 .date-departure-field:hover {
   background: #E6E6E6 !important;
-  background-image:url("../image/calendar.svg") !important;
+  background-image:url("../images/calendar.svg") !important;
   background-repeat: no-repeat !important;
   background-position:95% 50% !important;
 }
@@ -1236,7 +1232,7 @@ a.telephone:focus {
   background: #E6E6E6 !important;
   box-shadow: 0px 0px 0px 3px #83B3D3;
   outline:none;
-  background-image:url("../image/calendar.svg") !important;
+  background-image:url("../images/calendar.svg") !important;
   background-repeat: no-repeat !important;
   background-position:95% 50% !important;
 }
@@ -1245,7 +1241,7 @@ a.telephone:focus {
 .date-departure-field:active {
   background: #E6E6E6 !important;
   box-shadow: 0px 0px 0px 2px #000000;
-  background-image:url("../image/calendar.svg") !important;
+  background-image:url("../images/calendar.svg") !important;
   background-repeat: no-repeat !important;
   background-position:95% 50% !important;
 }
@@ -1330,7 +1326,7 @@ a.telephone:focus {
 
 .search-form-modal .arrive-date-field,
 .search-form-modal .date-departure-field {
-  background-image:url("../image/calendar.svg");
+  background-image:url("../images/calendar.svg");
   background-repeat: no-repeat;
   background-position:95% 50%;
 }
@@ -1408,7 +1404,7 @@ a.telephone:focus {
 }
 
 .modal-popover-button:hover {
-  background: #68A2CA !important;
+  background: #68A2CA ;
 }
 
 .modal-popover-button:focus-visible {
@@ -1642,10 +1638,11 @@ a.breadcrumbs-link {
 }
 
 .bold {
-  background: transparent !important;
+  background: transparent ;
   width: 160px;
   text-transform: none;
-
+  font-size: 18px;
+  line-height: 23px;
 }
 
 .bold:hover {
@@ -1759,7 +1756,7 @@ ul.item-list .item-card:last-child,
   font-weight: bold;
   font-size: 24px;
   line-height: 31px;
-  color: #000000 !important;
+  color: #000000 ;
   text-decoration: none;
   margin: 0;
   margin-bottom: 1px;
@@ -1767,11 +1764,11 @@ ul.item-list .item-card:last-child,
 }
 
 .item-card-title:hover {
-  color: #756257 !important;
+  color: #756257 ;
 }
 
 .item-card-link:focus {
-  color: #756257 !important;
+  color: #756257 ;
   box-shadow: 0px 0px 0px 3px #83B3D3;
   box-sizing: border-box;
   border-radius: 10px;
@@ -1798,6 +1795,7 @@ ul.item-list .item-card:last-child,
   width: 151px;
   height: 37px;
   padding-top: 9px;
+  margin-right:2px;
 }
 
 .item-card-link-button:hover {
@@ -1873,7 +1871,7 @@ ul>li>b {
   line-height: 21px;
   text-align: center;
   text-transform: uppercase;
-  color: #333333 !important;
+  color: #333333;
   background-color: #F2F2F2;
   width: 160px;
   padding-top: 9px;
@@ -2020,7 +2018,7 @@ ul>li>b {
   box-sizing: border-box;
   border-radius: 4px;
   appearance: none;
-  background: url("../image/arrow-select.svg") no-repeat right;
+  background: url("../images/arrow-select.svg") no-repeat right;
   background-position-x: calc(100% - 21px);
   padding: 12px 17px;
 }
