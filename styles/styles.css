@@ -632,8 +632,8 @@ li.fav-item {
     display:flex;
     border: 2px solid #ffffff;
     border-radius:4px;
-    padding:12px 10px 14px 15px;
-    color:#6d6b6d;
+    padding:11px 15px 14px 11px;
+    color:#8f8383;
 }
 
 .range-input::-webkit-outer-spin-button,
@@ -653,13 +653,13 @@ li.fav-item {
 }
 
 .range-input {
-    padding-right:14px;
     font: inherit;
     text-align: left;
     background-color: transparent;
     border: none;
     appearance: textfield;
     color:#ffffff;
+    margin-top:4px;
 }
 
 .catalog-filter-group {
