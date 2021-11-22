@@ -1210,7 +1210,7 @@ a.telephone:focus {
 
 .modal-title {
   margin: 0;
-  margin-bottom: 24px;
+  margin-bottom: 58px;
   font-family: "PT Sans", normal;
   font-size: 30px;
   line-height: 40px;
@@ -1219,31 +1219,31 @@ a.telephone:focus {
   text-transform: uppercase;
 }
 
-.arrive-date-field:hover,
-.date-departure-field:hover {
-  background: #E6E6E6 !important;
-  background-image:url("../images/calendar.svg") !important;
-  background-repeat: no-repeat !important;
-  background-position:95% 50% !important;
+#arrive-date.arrive-date-field:hover,
+#date-departure.date-departure-field:hover {
+  background: #E6E6E6 ;
+  background-image:url("../images/calendar.svg");
+  background-repeat: no-repeat ;
+  background-position:95% 50%;
 }
 
-.arrive-date-field:focus,
-.date-departure-field:focus {
-  background: #E6E6E6 !important;
+#arrive-date.arrive-date-field:hover,
+#date-departure.date-departure-field:hover {
+  background: #E6E6E6;
   box-shadow: 0px 0px 0px 3px #83B3D3;
   outline:none;
-  background-image:url("../images/calendar.svg") !important;
-  background-repeat: no-repeat !important;
-  background-position:95% 50% !important;
+  background-image:url("../images/calendar.svg");
+  background-repeat: no-repeat ;
+  background-position:95% 50% ;
 }
 
-.arrive-date-field:active,
-.date-departure-field:active {
-  background: #E6E6E6 !important;
+#arrive-date.arrive-date-field:hover,
+#date-departure.date-departure-field:hover {
+  background: #E6E6E6 ;
   box-shadow: 0px 0px 0px 2px #000000;
-  background-image:url("../images/calendar.svg") !important;
-  background-repeat: no-repeat !important;
-  background-position:95% 50% !important;
+  background-image:url("../images/calendar.svg");
+  background-repeat: no-repeat ;
+  background-position:95% 50%;
 }
 
 .arrive-date,
@@ -1305,9 +1305,10 @@ a.telephone:focus {
 }
 
 .search-form-modal .field-group {
-  display:flex;
   margin: 0;
   align-items: center;
+  display:flex;
+  flex-wrap:wrap;
 }
 
 .search-form-modal .field {
@@ -1315,13 +1316,15 @@ a.telephone:focus {
   border-radius: 4px;
   color: #000000;
   height: 50px;
-  width:420px;
+  width:401px;
   font-family: "PT Sans";
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 40px;
+  padding:0;
   padding-left:19px;
+
 }
 
 .search-form-modal .arrive-date-field,
